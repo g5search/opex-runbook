@@ -1,55 +1,50 @@
 <h1 align="center">Welcome to the OpEx Runbook!</h1>
 <br />
 <div align="center">
-  <a href="https://github.com/g5search/opex-runbook/images/g5-logo.png">
-    <img src="https://github.com/g5search/opex-runbook/images/g5-logo.png" alt="Logo" width="80" height="80">
-  </a>
+   <img src="https://github.com/g5search/opex-runbook/images/g5-logo.png" alt="Logo" width="80" height="80">
+</div>
   <p align="center">
-    Your Onestop Shop for Everything OpEx
+    Instruction Manual for OpEx App Development & Testing
     <br />
     <a href="https://github.com/g5search/opex-runbook"><strong>View the Runbook Repo</strong></a>
     <br />
     <br />
-    <a href="https://g5search.github.io/opex-runbook/">View the Runbook</a>
-    ·
     <a href="https://github.com/g5search/opex-runbook/issues">Report Bug</a>
     ·
     <a href="https://github.com/g5search/opex-runbook/issues">Request Feature</a>
   </p>
-</div>
-
-
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+<h3>Table of Contents</h3>
   <ol>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="/docs/postgres">Postgres</a></li>
       </ul>
     </li>
-    <li><a href="/general-testing-info/">General Testing Info</a></li>
-    <li><a href="/unit-testing/">Unit Testing</a></li>
-    <li><a href="/regression-testing">Regression Testing</a></li>
-    <li><a href="/postgres">Postgres</a></li>
+    <li><a href="/opex-runbook/docs/testing/general-testing-info/">Testing</a></li>
+    <ul>
+      <li><a href="/docs/testing/unit-testing">Unit Testing</a></li>
+      <li><a href="/docs/testing/regression-testing">Regression Testing</a></li>
+      <li><a href="/docs/testing/smoke-testing">Smoke Testing</a></li>
+    </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#shortcuts">Shortcuts</a></li>
   </ol>
-</details>
 
+---
 <!-- GETTING STARTED -->
-## Getting Started
+### Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+BLAH BLAH BLAH
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+What you need and how to install it
 * npm
   ```sh
   npm install npm@latest -g
@@ -57,20 +52,22 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/g5search/opex-runbook.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Start App Locally 
+   ```sh
+   npm run docs:dev
    ```
-
+4. Access App 
+   ```sh
+   http://localhost:8080/opex-runbook/
+   ```     
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -90,43 +87,20 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-OpEx Team - 
-
+OpEx Team: [yourmom@wolfeel.com]
 Project Link: [https://github.com/g5search/opex-runbook](https://github.com/g5search/opex-runbook)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- Shortcuts -->
+## Shortcuts
+
+[Onboarder Troubleshooting Guide:](https://docs.google.com/document/d/15EVwjOl7hJK617z0aq_--5h2oQ6tM1TQPTsRCLJfqDE/edit?pli=1)<br>
+[OpEx Dashboard (Production):](https://opex.g5marketingcloud.com/)
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-url]: https://github.com/github_username/repo_name/issues
-
-
-
-### Shortcuts:
-    <ul>
-      <li><a href="https://docs.google.com/document/d/15EVwjOl7hJK617z0aq_--5h2oQ6tM1TQPTsRCLJfqDE/edit?pli=1">Onboarder Troubleshooting Guide</a></li>
-      <li><a href="https://onboarder-opex-staging.g5devops.com">Onboarder - Staging</a></li>
-      <li><a href="https://onboarder-opex-staging.g5devops.com">Onboarder - Production</a></li>
-    <p>I am a Developer:</p>
-    <ul>
-      <li><a href="/kubernetes/getting-started/">Kubernetes on Amazon</a></li>
-      <li><a href="/gcp/">Google Cloud Platform</a></li>
-    </ul>
-    <p>I am a Tester:</p>
-    <ul>
-      <li><a href="/general-testing-info/">General Testing Info</a></li>
-      <li><a href="/unit-testing/">Unit Testing</a></li>
-      <li><a href="/regression-testing">Regression Testing</a></li>
-    </ul>   

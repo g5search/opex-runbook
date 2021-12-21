@@ -1,4 +1,4 @@
-{{ partial "head" . }}
+{{ partial "header" . }}
 
 {{ if (eq (trim .Site.Params.provider " " | lower) "github") | and (isset .Site.Params "repo_url") }}
   {{ $repo_id := replace .Site.Params.repo_url "https://github.com/" ""}}
@@ -32,14 +32,15 @@
       <li><a href="https://onboarder-opex-staging.g5devops.com">Onboarder - Production</a></li>
     <p>I am a Developer:</p>
     <ul>
-      <li><a href="/kubernetes/getting-started/">Kubernetes on Amazon</a></li>
-      <li><a href="/gcp/">Google Cloud Platform</a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
     </ul>
     <p>I am a Tester:</p>
     <ul>
       <li><a href="/general-testing-info/">General Testing Info</a></li>
       <li><a href="/unit-testing/">Unit Testing</a></li>
       <li><a href="/regression-testing">Regression Testing</a></li>
+      <li><a href="/smoke-testing">Smoke Testing</a></li>
     </ul>  
     <p>Blah Blah Blah</p>
     <footer class="footer">
