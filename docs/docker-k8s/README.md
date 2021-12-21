@@ -1,8 +1,11 @@
 # Deployments using Docker and Kubernetes (aka K8s)
 
+Our current deployment process uses several technologies.
+
+- [Install Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 - [Install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
-- Install Kubernetes
-- Install Helm
+- [Install Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
+- [Install Helm](https://helm.sh/docs/intro/install/)
 
 > NOTE: This workflow may change to use G5's CLI.
 
