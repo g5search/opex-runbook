@@ -6,5 +6,5 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:pcktbot/opex-runbook.git master:gh-pages
+git push -f git@github.com:g5search/opex-runbook.git main:gh-pages
 cd -
