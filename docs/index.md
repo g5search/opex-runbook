@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to the OpEx Runbook!</h1>
+<h1 align="center">Welcome to the OpEx Runbook!</h1> 
 <br />
 <div align="center">
    <img src="https://github.com/g5search/opex-runbook/images/g5-logo.png" alt="Logo" width="80" height="80">
@@ -60,11 +60,11 @@ What you need and how to install it
    ```sh
    npm install
    ```
-3. Start App Locally 
+3. Start Runbook Locally 
    ```sh
    npm run docs:dev
    ```
-4. Access App 
+4. Access App for Local Development and/or Testing
    ```sh
    http://localhost:8080/opex-runbook/
    ```     
@@ -76,7 +76,6 @@ What you need and how to install it
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -90,7 +89,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-OpEx Team: [yourmom@wolfeel.com]
+OpEx Team: [yourmom@wolfeel.com]<br>
 Project Link: [https://github.com/g5search/opex-runbook](https://github.com/g5search/opex-runbook)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
