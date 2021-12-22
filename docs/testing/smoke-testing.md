@@ -12,7 +12,7 @@
 - **A/C:**     
 -- **Sanity Testing:** (ex. PASS or FAIL)  
 -- **RC Branch:** (ex. PASS or FAIL)  
-- **Notes:** Optional
+- **Notes:** Optional  
 
 ---
 
@@ -25,7 +25,7 @@
 ---
 
 ### RC Specific 
-1. Does the new functiomnality work as expected?
+1. Does the new functionality work as expected?
 2. Are there any other areas impacted or affected by the release?
 3. Did the new functionality/enhancement introduce any new issues/bugs that need attention?
 

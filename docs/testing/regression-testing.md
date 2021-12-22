@@ -100,7 +100,7 @@ Regression Testing is used to confirm that recent code change(s) do not adversel
 
 
 #### Review - Location Information
-1. Warning banner displays ("NOTE: The information displayed here is a snapshot as captured via the Onboarder. Information may have been updated since submission, please be sure to check the Hub or Salesforce for the most up-to-date information.") [Example](https://www.screencast.com/t/8nDjrLvXrni)
+1. Warning banner displays (_"NOTE: The information displayed here is a snapshot as captured via the Onboarder. Information may have been updated since submission, please be sure to check the Hub or Salesforce for the most up-to-date information."_) [Example](https://www.screencast.com/t/8nDjrLvXrni)
 2. Able to select a CLIENT from dropdown
 3. Able to select LOCATION from dropdown
 4. Able to select specific fields 
