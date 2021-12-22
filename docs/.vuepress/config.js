@@ -1,20 +1,20 @@
 module.exports ={
   base: '/opex-runbook/',
   themeConfig: {
+    search: false,
     nav: [
       { text: 'Home', link: '/' },
       {
         text: 'Getting Started',
         ariaLabel: 'Getting Started Menu',
         items: [
-          { text: 'Getting Started', link: '/getting-started/' },
           { text: 'Prerequisites', link: '/getting-started/prerequisites/' },
           { text: 'Installation', link: '/getting-started/installation/' },
           { text: 'Postgres', link: '/postgres/'},
         ]
     },
     {
-        text: 'General Testing Info', 
+        text: 'Testing', 
         ariaLabel: 'Testing Menu',
         items: [
           { text: 'General Testing Info', link: '/testing/general-testing-info/' },

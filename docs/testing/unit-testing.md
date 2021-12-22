@@ -1,6 +1,6 @@
 # Unit Testing
 
-#### Description: Unit testing is completed on individual branches against their unique acceptance criteria to determine whether they are fit for release to production. 
+#### Unit testing is completed on individual branches against their unique acceptance criteria to determine whether they are fit for release to production. 
 
 ---
 

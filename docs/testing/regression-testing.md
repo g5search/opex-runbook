@@ -1,9 +1,6 @@
 # Regression Testing (E2E)
 
-<center>
-Regression Testing is used to confirm that recent code change(s) do not adversely affect existing functionality/features.
-</center>
-
+#### Regression Testing is used to confirm that recent code change(s) do not adversely affect existing functionality/features.
 
 ---
 
