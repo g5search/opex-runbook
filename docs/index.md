@@ -1,14 +1,11 @@
-<h1 align="center">Welcome to the OpEx Runbook!</h1> 
-<br />
-<div align="center">
-   <img src="https://github.com/g5search/opex-runbook/images/g5-logo.png" alt="Logo" width="80" height="80">
-</div>
+# Welcome to the OpEx Runbook!
+
   <p align="center">
-    Instruction Manual for OpEx App Development & Testing
-    <br />
-    <a href="https://github.com/g5search/opex-runbook"><strong>View the Runbook Repo</strong></a>
+Instruction Manual for OpEx App Development & Testing
     <br />
     <br />
+    <a href="https://github.com/g5search/opex-runbook">View the Runbook Repo</a>
+    .
     <a href="https://github.com/g5search/opex-runbook/issues">Report Bug</a>
     ·
     <a href="https://github.com/g5search/opex-runbook/issues">Request Feature</a>
@@ -89,7 +86,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- CONTACT -->
 ## Contact
 
-OpEx Team: [yourmom@wolfeel.com]<br>
+OpEx Team: [opex@getg5.com]<br>
 Project Link: [https://github.com/g5search/opex-runbook](https://github.com/g5search/opex-runbook)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
