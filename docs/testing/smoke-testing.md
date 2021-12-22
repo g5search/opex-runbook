@@ -3,7 +3,7 @@
 #### Smoke Testing is completed directly after a release to production to reveal potential issues/failures introduced by the release candidate that could potentially warrant a roll-back or subsequent hot-fix/patch release to resolve.
 
 ---
-## Smoke Testing Testing Template:
+### Smoke Testing Testing Template:
 - **Status:** (ex. APPROVED or REJECTED)  
 - **Approved PR/Branch:** (ex. pull/rc-1 | `rc-branch`)  
 - **Testbed:** (ex. https://onboarder-opex-staging.g5devops.com)  

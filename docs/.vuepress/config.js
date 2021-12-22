@@ -24,7 +24,7 @@ module.exports ={
           ]
     },      
        { text: 'Contributing', link: '/contributing/' },
-       { text: 'Contact', link: 'getting-started/contact/' }
+       { text: 'Contact', link: '/getting-started/contact/' }
        ]
    }
 }
