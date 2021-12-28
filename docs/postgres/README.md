@@ -1,6 +1,6 @@
 # All Things Postgres
 
-## Postgres CLI
+#### Postgres CLI
 
 MacOS using [PostgresApp](https://postgresapp.com/documentation/cli-tools.html) will need to add commands to shell path. Run the following (requires admin user):
 
@@ -8,7 +8,7 @@ MacOS using [PostgresApp](https://postgresapp.com/documentation/cli-tools.html) 
 sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
 ```
 
-## Dump and Restore Databases from Remote Instances
+#### Dump and Restore Databases from Remote Instances
 
 Dump backup of `database_name` from Postgres instance.
 
