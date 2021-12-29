@@ -51,9 +51,48 @@
 #### Intake
 1. Able to sort by Client Name, Created Date or Project Name
 2. Defaults to sort by Created Date
-- Configure  
-- Review  
-- Release  
+3. Able to search via search bar 
+4. Pagination defaults to 10, able to set to 10, 25, 50 or 100
+5. Able to skip to specific pages 
+6. Project cards display the following information: [example:](https://www.screencast.com/t/a0M0FkI6Cv)  
+```Number of Locations (ex. 1 / Location)```  
+```Client (ex. Store It All Self Storage)```  
+```Project Details (ex.  #18077 Add-Uber3.0-Store It All- 1-SS```  
+```Created Date (ex. Created: 3/2/2021)```  
+
+#### Intake - Configure
+1. Modal header = INTAKE
+2. First section header = CLIENT INFORMATION
+3. Able to add a new client
+4. Able to select an existing client
+5. Able to remove client
+6. Able to close the Client Information panel
+7. Able to click NEXT and be routed to step 2
+8. Second section header = LOCATION INFORMATION
+8. When location name is clicked kicks off google search in new window [example:](https://www.screencast.com/t/0ul7tI0baoRe)
+9. Able to add URL for scraping 
+10. Able to select yes to crawl
+11. Able to deselect yes to crawl 
+12. Able to select a vendor from dropdown (Choices include LeaseLabs, Yardi/RentCafe, Wordpress, Wix, Squarespace & Other)
+13. Able to select client
+14. Able to select corp for only 1 location
+15. If corp already exists for client unable to select corp 
+16. Able to click NEXT and be routed to step 3 
+17. Third section header = SAVE, CRAWL & SCRAPE
+18. Screen displays information and a button
+19. Message displays _THANKS FOR ALL THAT INFORMATION!
+We’re going to use it to do the following:
+Crawl - We will find all the pages of the sites you specified.
+Scrape - We will scrape all the pages we find for relevant information.
+* Check back in shortly to review the information we found in our scrape._
+18. Able to click "Save & Start Crawl" and action kicks off 
+
+#### Intake - Review
+1. Modal header = REVIEW PROJECT
+
+
+#### Intake - Release
+1. 
 
 ---
 
