@@ -231,7 +231,7 @@ Location ASSETS
 ---
 
 ### Queues 
-1. View loads all 5 queues: AUTH, CRAWLERS, HUB, SALESFORCE & SEEDER
+1. View loads all 5 queues: AUTH, CRAWLERS, HUB, SALESFORCE & SEEDER [example:](https://www.screencast.com/t/ULQnPqEeuH8)
 2. Each queue contains: waiting, active, completed, failed, delayed & paused
 3. Each of the above list their respectove jopb counts 
 4. Able to search job by ID
@@ -240,10 +240,12 @@ Location ASSETS
 7. Able to Clear Selected
 8. Able to Delete Selected
 9. Able to Retry Selected Failed Jobs
-10. Job details have the following headings: Selected, Id, State, Name, Attempts Made, Progress, Progressed On, Finished On, Actions
+10. Job details have the following headings: Selected, Id, State, Name, Attempts Made, Progress, Progressed On, Finished On, Actions [example:](https://www.screencast.com/t/cuWAqNQr53iN)
 11. Able to sort by any of the above heads across all queues 
-12. Able to successfully "Refresh Hub Token" via button in header
-13. Able to "Pause All Queues" via button in header
+12. Able to Select Location and select "View Details" button to see more information [example:](https://www.screencast.com/t/lAzfOoPivK)
+13. Able to select "Hide Details" button to collapse details
+14. Able to successfully "Refresh Hub Token" & "Pause All Queues" via buttons in header [example:](https://www.screencast.com/t/vye1zarmH)
+15. Able to select "Edit Data" button and edit and save [example:](https://www.screencast.com/t/aP5jjPecIjI2)
 
 
 
