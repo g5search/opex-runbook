@@ -89,10 +89,62 @@ Scrape - We will scrape all the pages we find for relevant information.
 
 #### Intake - Review
 1. Modal header = REVIEW PROJECT
+2. Can use Search Locations bar to search
+3. Locations are listed A->Z by default
+4. Able to sort by status 
+5. Able to select a location at each step
+6. Able to Save & Close at each step
+7. Able to close model with X at each step
 
+#### Location DETAILS 
+1. Fields that should populate:
+```NAME```
+```NAKED DOMAIN```
+```DOMAIN UNAVAILABLE```
+```STREET ADDRESS 1```
+```STREET ADDRESS 2```
+```CITY```
+```STATE```
+```POSTAL CODE```
+```COUNTRY```
+```LANDLINE/FORWARDING```
+```LOCAL PHONE NUMBER``` 
 
+#### Location AMENITIES 
+1. Should display scraped amenities [example:](https://www.screencast.com/t/5r3bvrCjk5)
+2. Able to delete scraped amenities
+
+#### Location ASSETS 
+1. Able to upload new asset (confirm flows to cloudinary, asset library & content library)
+2. Able to upload multiple assets (confirm flows to cloudinary, asset library & content library)
+3. Confirm non-supported file types are not selectable 
+4. Able to select single asset
+5. Able to select multiple assets
+6. Able to download asset
+7. Able to delete via button (confirm delete flows to cloudinary, asset library & content library)
+8. Able to delete via icon on image (confirm delete flows to cloudinary, asset library & content library)
+9. Able to select all 
+10. Able to refresh
+ 
 #### Intake - Release
-1. 
+1. Modal should display like this: [example:](https://www.screencast.com/t/YaxVGh1jFRxC)
+2. Modal header = SUMMARY OF INTAKE ACTIONS
+3. Step 1 header = SELECT LOCATION TO RELEASE
+4. Able to Filter Phase 
+5. Able to Filter by Name 
+6. Able to Select All
+7. Able to Clear Selected
+8. Able to add & remove locations usind ADD & REMOVE buttons
+9. Added locations join list on the right
+10. Deleted locations join the list on the left 
+11. Able to sort by Name & Phase in both lists
+11. Step 2 header = RELEASE REVIEW
+12. Contains 3 sections: Hub Review, Auth Review & Remaining Locations [example:](https://www.screencast.com/t/m5tBh4a8IV)
+13. Hub Review contains custom message about client creation; either informing user they are creating a new client or associating locations with an existing. (ex. _You will be associating locations to 1 existing Client in the Hub._)
+14. Auth Review contains message regarding users creating and a link that leads to the correct inspire planner project. (ex. _You will be creating user(s) in Auth for this project and releasing the Onboarder to them._)
+15. Remaining Locations contains a custom count message informing user of remaining unreleased locations in the project (ex. _You will be creating user(s) in Auth for this project and releasing the Onboarder to them._)
+16. Able to close model with X 
+17. Able to hit RELEASE! and be redirected to Intrake view wqith all stages complete [example:](https://www.screencast.com/t/8q2eFKm4J9)
 
 ---
 

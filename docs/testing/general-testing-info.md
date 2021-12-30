@@ -87,8 +87,6 @@ A story is **NOT** eligible for testing until basic criteria is met:
 - [Onboarder Review View - Production](https://onboarder.g5marketingcloud.com/review)
 - [Onboarder Intake View - Production](https://onboarder.g5marketingcloud.com/intake)
 - [Onboarder Queues View - Production](https://onboarder.g5marketingcloud.com/queues)
-- [Honeybadger]()
-- [Salesforce]()
 - [Hub - Staging](https://hub-content-staging.g5devops.com/)
 - [Hub - Production](https://hub.g5marketingcloud.com/)
 - [Content Library - Staging](https://content-management-system-content-staging.g5devops.com/admin/clients/g5-c-5mt8jmdvl-lander-software/content_liquids)
