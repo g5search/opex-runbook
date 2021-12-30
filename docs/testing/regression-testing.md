@@ -1,6 +1,6 @@
 # Regression Testing (E2E)
 
-#### Regression Testing is used to confirm that recent code change(s) do not adversely affect existing functionality/features.
+#### Regression Testing is used to confirm that recent code change(s) do not adversely affect existing functionality/features.  
 
 ---
 
@@ -15,24 +15,28 @@
 -- **Contributing Branch 1:** (ex. PASS or FAIL)  
 -- **Contributing Branch 2:** (ex. PASS or FAIL)  
 **Notes:** Optional
+  
 
 ---
 
 ### Areas to Test
 
   * [General (Whole App)](#general)
-  * [Intake UI](#intake)
+  * [Intake](#intake)
+  * [Intake - Configure](#intake-configure)
+  * [Intake - Review](#intake-review)
+  * [Intake - Release](#intake-release)
   * [Projects UI](#projects)
   * [Projects - Phases](#projects-phases)
   * [Projects - Bulk Edit Mode](#projects-bulk-edit-mode)
-  * [Review UI](#review)
+  * [Review](#review)
   * [Review - Location Info](#location-info)
-  * [Review - Assets UI](#assets)
-  * [Queues UI](#queues)
+  * [Review - Assets](#assets)
+  * [Queues](#queues)  
 
 ---  
 
-#### General
+### General
 1. User dropdown populates   
 2. User dropdown displays first & last name [ex. User Dropdown](https://www.screencast.com/t/0xFLyBvSj)    
 3. When carat is clicked menu item displays [ex. User Settings](https://www.screencast.com/t/nmOs5BtaNz) 
@@ -48,7 +52,7 @@
 
 ---
 
-#### Intake
+### Intake
 1. Able to sort by Client Name, Created Date or Project Name
 2. Defaults to sort by Created Date
 3. Able to search via search bar 
@@ -59,6 +63,8 @@
 ```Client (ex. Store It All Self Storage)```  
 ```Project Details (ex.  #18077 Add-Uber3.0-Store It All- 1-SS```  
 ```Created Date (ex. Created: 3/2/2021)```  
+
+---
 
 #### Intake - Configure
 1. Modal header = INTAKE
@@ -87,6 +93,8 @@ Scrape - We will scrape all the pages we find for relevant information.
 * Check back in shortly to review the information we found in our scrape._
 18. Able to click "Save & Start Crawl" and action kicks off 
 
+---
+
 #### Intake - Review
 1. Modal header = REVIEW PROJECT
 2. Can use Search Locations bar to search
@@ -95,9 +103,7 @@ Scrape - We will scrape all the pages we find for relevant information.
 5. Able to select a location at each step
 6. Able to Save & Close at each step
 7. Able to close model with X at each step
-
-#### Location DETAILS 
-1. Fields that should populate:
+8. Location DETAILS fields that should populate:
 ```NAME```
 ```NAKED DOMAIN```
 ```DOMAIN UNAVAILABLE```
@@ -109,22 +115,21 @@ Scrape - We will scrape all the pages we find for relevant information.
 ```COUNTRY```
 ```LANDLINE/FORWARDING```
 ```LOCAL PHONE NUMBER``` 
+9. Location AMENITIES should display scraped amenities [example:](https://www.screencast.com/t/5r3bvrCjk5)
+10. Able to delete scraped amenities
+Location ASSETS 
+11. Able to upload new asset (confirm flows to cloudinary, asset library & content library)
+12. Able to upload multiple assets (confirm flows to cloudinary, asset library & content library)
+13. Confirm non-supported file types are not selectable 
+14. Able to select single asset
+15. Able to select multiple assets
+16. Able to download asset
+17. Able to delete via button (confirm delete flows to cloudinary, asset library & content library)
+18. Able to delete via icon on image (confirm delete flows to cloudinary, asset library & content library)
+19. Able to select all 
+20. Able to refresh  
 
-#### Location AMENITIES 
-1. Should display scraped amenities [example:](https://www.screencast.com/t/5r3bvrCjk5)
-2. Able to delete scraped amenities
-
-#### Location ASSETS 
-1. Able to upload new asset (confirm flows to cloudinary, asset library & content library)
-2. Able to upload multiple assets (confirm flows to cloudinary, asset library & content library)
-3. Confirm non-supported file types are not selectable 
-4. Able to select single asset
-5. Able to select multiple assets
-6. Able to download asset
-7. Able to delete via button (confirm delete flows to cloudinary, asset library & content library)
-8. Able to delete via icon on image (confirm delete flows to cloudinary, asset library & content library)
-9. Able to select all 
-10. Able to refresh
+---
  
 #### Intake - Release
 1. Modal should display like this: [example:](https://www.screencast.com/t/YaxVGh1jFRxC)
@@ -148,7 +153,7 @@ Scrape - We will scrape all the pages we find for relevant information.
 
 ---
 
-#### Projects
+### Projects
 1. All projects display in dropdown for global user
 2. Only assigned projects are available for selection for scoped users
 3. Typeahead allows you to begin typing to narrow selection list
@@ -157,6 +162,7 @@ Scrape - We will scrape all the pages we find for relevant information.
 6. URL reflects project and location ID 
 7. Sections displayeddepend of package - test projects have all sections ADD DETAILS
 
+---
 
 #### Projects - Phases
 1. If there are multiple phases the first phase is open upon load [example:](https://www.screencast.com/t/QnHK2mc4Ywt)
@@ -165,6 +171,8 @@ Scrape - We will scrape all the pages we find for relevant information.
 4. Phases are listed in ascending numerical order
 5. Carat on phase panel opens and closes the location list 
 6. Submitted locations display italicized text 
+
+---
 
 #### Projects - Bulk Edit Mode
 1. Able to toggle SINGLE MODE on and off (if project contains multiple locations/phases)
@@ -182,10 +190,12 @@ Scrape - We will scrape all the pages we find for relevant information.
 
 ---
 
-#### Review
+### Review
 1. Review is composed of 2 different views - Location Info & Location Assets  
 2. Both images/badges populate and lead to their respective views  
 
+
+---
 
 #### Review - Location Information
 1. Warning banner displays (_"NOTE: The information displayed here is a snapshot as captured via the Onboarder. Information may have been updated since submission, please be sure to check the Hub or Salesforce for the most up-to-date information."_) [Example](https://www.screencast.com/t/8nDjrLvXrni)
@@ -201,6 +211,7 @@ Scrape - We will scrape all the pages we find for relevant information.
 11. Results display under headings Location | Field Name | Field Value
 12. Able to sort Field Name & Field Value by clicking sort icon (ascending/descending)
 
+---
 
 #### Review - Assets
 1. Able to select test client and location 
@@ -216,6 +227,23 @@ Scrape - We will scrape all the pages we find for relevant information.
 11. Able to select all 
 12. Able to refresh
 13. Able to select new location 
+
+---
+
+### Queues 
+1. View loads all 5 queues: AUTH, CRAWLERS, HUB, SALESFORCE & SEEDER
+2. Each queue contains: waiting, active, completed, failed, delayed & paused
+3. Each of the above list their respectove jopb counts 
+4. Able to search job by ID
+5. Display defaults to 10 jobs
+6. Able to Select All
+7. Able to Clear Selected
+8. Able to Delete Selected
+9. Able to Retry Selected Failed Jobs
+10. Job details have the following headings: Selected, Id, State, Name, Attempts Made, Progress, Progressed On, Finished On, Actions
+11. Able to sort by any of the above heads across all queues 
+12. Able to successfully "Refresh Hub Token" via button in header
+13. Able to "Pause All Queues" via button in header
 
 
 
