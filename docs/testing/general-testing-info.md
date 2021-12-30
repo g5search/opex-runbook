@@ -48,7 +48,7 @@ _We run a weekly release cadence which requires a tight timeline and a solid pro
 **Friday:** RC Planning and Risk Assessment
 * All stories that have been tested, accepted and marked DONE will be added to the RC Story
 * The RC Story will be reviewed with Product and QA during standup on Friday 
-* Once RC story is cbranch gets built and socialized for reviews from all contributing developers (within reason) 
+* Once RC story is done branch gets built and socialized for reviews from all contributing developers (within reason) 
 * Once all devs had reviewed the RC will be pushed to STAGING for regression testing
 * RC MUST be live on STAGING by EOD Monday or the RC will be reevaluated  
 
@@ -60,7 +60,7 @@ _We run a weekly release cadence which requires a tight timeline and a solid pro
 
 **Wednesday:** RC is Released
 * Dev who is manning the RC will ping QA and wait for the “OK to Release” reply
-* Once QA is on deck realese is merged, tagged and deployed to production
+* Once QA is on deck release is merged, tagged and deployed to production
 * QA will add version notes to channel to inform internal teams what is shipping
 * When QA is done with smoke-testing they will alert the relevant channels that work is complete and live
 	

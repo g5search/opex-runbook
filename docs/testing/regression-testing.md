@@ -102,7 +102,7 @@ Scrape - We will scrape all the pages we find for relevant information.
 4. Able to sort by status 
 5. Able to select a location at each step
 6. Able to Save & Close at each step
-7. Able to close model with X at each step
+7. Able to close modal with X at each step
 8. Location DETAILS fields that should populate:
 ```NAME```
 ```NAKED DOMAIN```
@@ -139,7 +139,7 @@ Location ASSETS
 5. Able to Filter by Name 
 6. Able to Select All
 7. Able to Clear Selected
-8. Able to add & remove locations usind ADD & REMOVE buttons
+8. Able to add & remove locations using ADD & REMOVE buttons
 9. Added locations join list on the right
 10. Deleted locations join the list on the left 
 11. Able to sort by Name & Phase in both lists
@@ -148,7 +148,7 @@ Location ASSETS
 13. Hub Review contains custom message about client creation; either informing user they are creating a new client or associating locations with an existing. (ex. _You will be associating locations to 1 existing Client in the Hub._)
 14. Auth Review contains message regarding users creating and a link that leads to the correct inspire planner project. (ex. _You will be creating user(s) in Auth for this project and releasing the Onboarder to them._)
 15. Remaining Locations contains a custom count message informing user of remaining unreleased locations in the project (ex. _You will be creating user(s) in Auth for this project and releasing the Onboarder to them._)
-16. Able to close model with X 
+16. Able to close modal with X 
 17. Able to hit RELEASE! and be redirected to Intrake view wqith all stages complete [example:](https://www.screencast.com/t/8q2eFKm4J9)
 
 ---
@@ -160,7 +160,7 @@ Location ASSETS
 4. Projects display: Client | Project | Location Count 
 5. Once project is selected directs user to unique project UI
 6. URL reflects project and location ID 
-7. Sections displayeddepend of package - test projects have all sections ADD DETAILS
+7. Sections displayed depend of package - test projects have all sections ADD DETAILS
 
 ---
 
@@ -233,7 +233,7 @@ Location ASSETS
 ### Queues 
 1. View loads all 5 queues: AUTH, CRAWLERS, HUB, SALESFORCE & SEEDER [example:](https://www.screencast.com/t/ULQnPqEeuH8)
 2. Each queue contains: waiting, active, completed, failed, delayed & paused
-3. Each of the above list their respectove jopb counts 
+3. Each of the above list their respective job counts 
 4. Able to search job by ID
 5. Display defaults to 10 jobs
 6. Able to Select All
