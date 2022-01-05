@@ -9,7 +9,7 @@ module.exports = {
       '/postgres/',
       '/contributing/'
     ],
-    search: false,
+    search: true,
     nav: [{
         text: 'Home',
         link: '/'
