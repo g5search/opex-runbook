@@ -27,3 +27,45 @@ npm run docker:push:<context>
 ```
 
 Upgrade the deployment
+
+``` sh
+npm run helm:upgrade:<context>
+```
+
+## Manage Attached Redis Instances via Debian
+
+Since the Redis instance isn't exposed publicly, and the app may not have tasks to manage the instance directly, you may need to use the `redis-cli` to communicate with the instance.
+
+**Spin Up Debian Pod**
+
+Make sure your K8s context includes the redis instance you want to manage.
+
+Deploy a Debian pod.
+
+``` sh
+kubectl run redis-pod --image=debian -it -- bash
+```
+
+This will end with a command prompt. Install redis tools.
+
+``` sh
+apt-get update && apt-get install -y redis-tools
+```
+
+Retrieve the private IP for your Redis instance from the Memstore>Redis product in Google Cloud Console. Connect to it via the redis-cli.
+
+``` sh 
+redis-cli -h <IP of redis instance> # do not include the TCP port
+```
+
+Run your redis commands from here.
+
+**To Exit**
+
+Keep typing `exit` until you get to your local shell.
+
+Remove your pod.
+
+``` sh
+kubectl delete pod redis-pod
+```
