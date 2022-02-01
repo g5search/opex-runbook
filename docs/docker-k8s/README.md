@@ -6,6 +6,7 @@ Our current deployment process uses several technologies.
 - [Install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 - [Install Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
 - [Install Helm](https://helm.sh/docs/intro/install/)
+- (Optional) Install "kubectx" via Homebrew. `brew install kubectx`.
 
 > NOTE: This workflow may change to use G5's CLI.
 
@@ -18,18 +19,32 @@ Copy the `.buildenv` template file.
 ``` sh
 cp .buildenv.TEMPLATE .buildenv
 ```
+
 Fill out each of the variables. These are variables that are only consumed when compiling and are different than runtime variables. Most are consumed directly by Nuxt.js, Vue.js, or its plugins.
+
+> The `BROWSER_URL` changes dependending on where you are deploying.
+
+Build, tag, and push. `<context>` in each command is either `prod`, `staging`, or `prime`.
 
 ``` sh
 npm run docker:build
-npm run docker:tag:<context>
+npm run docker:tag:<context> # ex. npm run docker:tag:staging
 npm run docker:push:<context>
 ```
 
-Upgrade the deployment
+Upgrade the deployment.
 
 ``` sh
-npm run helm:upgrade:<context>
+npm run helm:upgrade:<context> # ex. npm run helm:upgrade:prod
+kubectl get pods
+```
+
+You should see new pods spinning up.
+
+> Staging and Prime deployments tag their images based on the commit SHA and branch name. If you are redeploying without adding a new commit or changing branches, new pods may not initialize after upgrading. Restart the deployment to finish the upgrade.
+
+``` sh
+kubectl rollout restart deployement <app_name>
 ```
 
 ## Manage Attached Redis Instances via Debian
