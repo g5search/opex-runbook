@@ -84,3 +84,10 @@ Remove your pod.
 ``` sh
 kubectl delete pod redis-pod
 ```
+## Useful Kubernetes Commands
+
+Occasionally, you will accidentally deploy an app to the wrong context. For apps that use Helm and Istio's virtual service the domain routing may get confused. You may even try to fix this, but find that Helm will not deploy the fix despite you fixing the Yaml. Can you force an update or patch?
+
+```
+helm get manifest <deployment> | k apply -f -
+```

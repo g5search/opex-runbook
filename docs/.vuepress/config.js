@@ -7,6 +7,7 @@ module.exports = {
       '/node/',
       '/docker-k8s/',
       '/postgres/',
+      '/domain-forwarder/',
       '/contributing/'
     ],
     search: true,
@@ -28,6 +29,10 @@ module.exports = {
           {
             text: 'Postgres',
             link: '/postgres/'
+          },
+          {
+            text: 'Domain Forwarder',
+            link: '/domain-forwarder/'
           },
         ]
       },
