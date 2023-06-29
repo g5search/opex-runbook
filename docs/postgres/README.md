@@ -29,12 +29,22 @@ Restore `database_name` from dump file.
 ``` sh
 psql -f dump.sql database_name
 ```
+
+You can reuse some of the flags when restoring if you need to restore to a remote database.
 ## Install Google Cloud SQL Auth Proxy
 
-If you need to connect to remote instance with an app or a local client, you will need to install the Cloud SQL Proxy. This handles the authentication and attaches the database locally to a port of your choosing.
+If you need to connect to remote instance with an app or a local client, you will need to install the Cloud SQL Proxy. This handles the authentication and attaches the database locally to a port of your choosing. The Proxy is only necessary when connecting to a GKE attached database or SQL instances without a public IP or hostname.
 
 [Install Cloud SQL Proxy](https://cloud.google.com/sql/docs/mysql/sql-proxy)
 
+> Alternatively you can use the G5 CLI to run the database proxy.
+
+The Auth Proxy can authenticate through `gcloud`. You may need to reach out to DevOps to have a user created or updated with permissions for `Cloud SQL Editor`.
+
+If you are managing a small number of database connections, you can use aliasing to simplify the connection commands.
+
+```
+./cloud_sql_proxy 
 
 
 
